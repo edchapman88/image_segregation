@@ -1,1 +1,5 @@
-/image_segregation_venv
+.venv/
+imgs/
+
+database/*
+!database/example_batch/

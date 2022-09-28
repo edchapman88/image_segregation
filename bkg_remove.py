@@ -19,9 +19,9 @@ BG_COLOR = (192, 192, 192) # gray
 MASK_COLOR = (255, 255, 255) # white
 
 # names = ['Ed','Andrew','Chris','David','Dimi','Euan','Jaffer','Nafees','TonyD']
-names = ['man']
+names = ['4','5','6','7','8','9','10','11','12','13','14','15']
 def augment(path):
-  return f'./imgs/{path}.png'
+  return f'./imgs/{path}.jpeg'
 image_paths = map(augment,names)
 
 
