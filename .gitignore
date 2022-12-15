@@ -1,5 +1,4 @@
 .venv/
-imgs/
 
 database/*
-!database/example_batch/
+!database/example_batch/*
